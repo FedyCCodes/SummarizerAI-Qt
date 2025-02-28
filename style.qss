@@ -1,0 +1,47 @@
+QWidget {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+QVBoxLayout {
+  width: 800px;
+  
+}
+
+QLabel#title {
+  font-size: 36px;
+  font-weight: 300;
+  padding: 16px;
+}
+
+QLabel {
+  margin: 8px;
+}
+
+QTextEdit {
+  min-height: 100px;
+  border: 1px solid #bfccd9;
+  border-radius: 16px;
+  padding: 16px;
+  width: calc(100% - 32px);
+  font-size: 1rem;
+  
+}
+
+QTextEdit#output {
+  background-color: #fbfcfe;
+  color: #4c5967;
+}
+
+QPushButton {
+  color: #F0F7FF;
+  background: #0959AA;
+  background-image: linear-gradient(to bottom, #0A66C2, #064079);
+  border: none;
+  border: 1px solid #033363;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 16px;
+  margin: 4px 0;
+  border-radius: 10px;
+}
